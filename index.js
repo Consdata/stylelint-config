@@ -1,7 +1,9 @@
 'use strict';
 
 module.exports = {
-    "rules": {
+    customSyntax: require("postcss-scss"),
+    plugins: ["stylelint-scss"],
+    rules: {
         "color-named": "never",
         "declaration-no-important": true,
         "max-nesting-depth": 4,
