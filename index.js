@@ -1,12 +1,13 @@
 'use strict';
 
 module.exports = {
-    "rules": {
+    customSyntax: require("postcss-scss"),
+    plugins: ["stylelint-scss"],
+    rules: {
         "color-named": "never",
         "declaration-no-important": true,
         "max-nesting-depth": 4,
         "string-quotes": "single",
-        "at-rule-no-unknown": true,
         "block-no-empty": [
             true,
             {
@@ -200,6 +201,22 @@ module.exports = {
         "value-list-comma-space-after": "always-single-line",
         "value-list-comma-space-before": "never",
         "value-list-max-empty-lines": 0,
-        "value-no-vendor-prefix": true
+        "value-no-vendor-prefix": true,
+        "at-rule-no-unknown": null,
+        "scss/at-extend-no-missing-placeholder": true,
+        "scss/at-if-no-null": true,
+        "scss/at-import-no-partial-leading-underscore": true,
+        "scss/at-import-partial-extension": "never",
+        "scss/at-rule-no-unknown": true,
+        "scss/comment-no-empty": true,
+        "scss/declaration-nested-properties-no-divided-groups": true,
+        "scss/dollar-variable-no-missing-interpolation": true,
+        "scss/function-quote-no-quoted-strings-inside": true,
+        "scss/function-unquote-no-unquoted-strings-inside": true,
+        "scss/no-duplicate-mixins": true,
+        "scss/no-global-function-names": true,
+        "scss/operator-no-newline-after": true,
+        "scss/operator-no-newline-before": true,
+        "scss/operator-no-unspaced": true
     }
 }
