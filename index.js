@@ -35,7 +35,7 @@ module.exports = {
         "no-empty-source": true,
         "no-extra-semicolons": true,
         "no-invalid-double-slash-comments": true,
-        "no-invalid-position-at-import-rule": true,
+        "no-invalid-position-at-import-rule": null,
         "no-irregular-whitespace": true,
         "property-no-unknown": true,
         "selector-pseudo-class-no-unknown": true,
