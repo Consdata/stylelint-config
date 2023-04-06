@@ -94,7 +94,6 @@ module.exports = {
                 ]
             }
         ],
-        "declaration-property-value-no-unknown": true,
         "font-family-name-quotes": "always-where-recommended",
         "function-name-case": "lower",
         "function-url-quotes": "always",
