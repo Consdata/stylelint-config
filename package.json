@@ -1,6 +1,6 @@
 {
   "name": "@consdata/stylelint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Consdata common StyleLint rules",
   "main": "index.js",
   "scripts": {
