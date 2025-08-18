@@ -1,6 +1,6 @@
 {
   "name": "@consdata/stylelint-config",
-  "version": "1.0.4",
+  "version": "3.0.0",
   "description": "Consdata common StyleLint rules",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,6 @@
   },
   "dependencies": {
     "postcss-scss": "^4.0.2",
-    "stylelint-scss": "^4.0.0"
+    "stylelint-scss": "^6.10.1"
   }
 }
